@@ -102,7 +102,7 @@ export default function AboutAsp() {
             ].map((item, index) => (
               <div key={index} className="bg-brand-navy-light p-6 md:p-8 rounded-sm border border-white/5 flex gap-6">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/logo.png" alt="Icon" className="w-8 h-8 object-contain brightness-0 invert" />
+                  <img src="/logo.png" alt="Icon" className="w-8 h-8 object-contain invert mix-blend-screen" />
                 </div>
                 <div>
                   <h3 className="text-lg font-serif text-white mb-3">{item.title}</h3>
