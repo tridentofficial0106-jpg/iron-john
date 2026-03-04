@@ -25,20 +25,10 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-12 flex justify-center"
           >
-            {/* ▼▼▼ ロゴ画像挿入箇所 ▼▼▼ */}
-            {/* 以下のプレースホルダー（div）を削除し、代わりに img タグを配置してください */}
-            {/* 推奨コード: <img src="/logo.png" alt="Iron John" className="w-32 h-32 md:w-40 md:h-40 object-contain drop-shadow-2xl" /> */}
-            <div className="w-32 h-32 md:w-40 md:h-40 relative flex items-center justify-center group cursor-pointer">
-              {/* 後ろでぼんやり光るエフェクト（画像挿入後も残すと綺麗です） */}
-              <div className="absolute inset-0 bg-brand-gold/10 blur-xl rounded-full transition-all duration-500 group-hover:bg-brand-gold/20"></div>
-              
-              {/* 画像を入れる枠（画像を挿入する際はこのdivを消してimgタグに置き換えてください） */}
-              <div className="relative z-10 w-full h-full border border-dashed border-brand-gold/40 rounded-2xl flex flex-col items-center justify-center bg-brand-navy/30 backdrop-blur-sm transition-all duration-500 group-hover:border-brand-gold/80">
-                <span className="text-brand-gold/60 text-xs tracking-widest font-bold mb-1">LOGO AREA</span>
-                <span className="text-brand-silver/40 text-[10px]">ここに画像を挿入</span>
-              </div>
+            <div className="relative flex items-center justify-center group">
+              <div className="absolute inset-0 bg-brand-gold/20 blur-2xl rounded-full transition-all duration-500 group-hover:bg-brand-gold/30"></div>
+              <img src="/logo.png" alt="Iron John" className="relative z-10 w-40 h-40 md:w-56 md:h-56 object-contain drop-shadow-2xl brightness-0 invert" />
             </div>
-            {/* ▲▲▲ ロゴ画像挿入箇所 ▲▲▲ */}
           </motion.div>
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}

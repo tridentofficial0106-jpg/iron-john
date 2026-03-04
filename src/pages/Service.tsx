@@ -28,7 +28,7 @@ export default function Service() {
                 />
                 <div className="absolute inset-0 bg-brand-navy/40 group-hover:bg-brand-navy/20 transition-colors duration-700" />
                 <div className="absolute bottom-0 left-0 p-8 bg-gradient-to-t from-brand-navy to-transparent w-full">
-                  {/* ロゴ画像挿入箇所: <img src="/logo.png" alt="ASP Business" className="w-12 h-12 mb-4" /> */}
+                  <img src="/logo.png" alt="ASP Business" className="w-16 h-16 mb-4 object-contain brightness-0 invert" />
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Service() {
                 />
                 <div className="absolute inset-0 bg-brand-navy/40 group-hover:bg-brand-navy/20 transition-colors duration-700" />
                 <div className="absolute bottom-0 right-0 p-8 bg-gradient-to-t from-brand-navy to-transparent w-full flex justify-end">
-                  {/* ロゴ画像挿入箇所: <img src="/logo.png" alt="Life Support Business" className="w-12 h-12 mb-4" /> */}
+                  <img src="/logo.png" alt="Life Support Business" className="w-16 h-16 mb-4 object-contain brightness-0 invert" />
                 </div>
               </div>
             </div>

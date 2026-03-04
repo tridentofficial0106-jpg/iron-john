@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-6">
-              {/* ロゴ画像挿入箇所: <img src="/logo.png" alt="Iron John" className="w-8 h-8" /> */}
+              <img src="/logo.png" alt="Iron John" className="w-12 h-12 object-contain brightness-0 invert" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-wider text-white">Iron John</span>
                 <span className="text-[10px] tracking-widest text-brand-silver/70">株式会社アイアンジョン</span>
