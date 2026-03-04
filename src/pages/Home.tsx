@@ -27,7 +27,7 @@ export default function Home() {
           >
             <div className="relative flex items-center justify-center group">
               <div className="absolute inset-0 bg-brand-gold/20 blur-2xl rounded-full transition-all duration-500 group-hover:bg-brand-gold/30"></div>
-              <img src="/logo.png" alt="Iron John" className="relative z-10 w-40 h-40 md:w-56 md:h-56 object-contain drop-shadow-2xl invert mix-blend-screen" />
+              <img src="/logo.png" alt="Iron John" className="relative z-10 w-40 h-40 md:w-56 md:h-56 object-contain drop-shadow-2xl brightness-0 invert" />
             </div>
           </motion.div>
           <motion.h1 

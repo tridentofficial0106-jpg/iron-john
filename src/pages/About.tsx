@@ -16,7 +16,7 @@ export default function About() {
       <section className="py-24 bg-brand-navy">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center mb-12">
-            <img src="/logo.png" alt="Iron John" className="w-20 h-20 object-contain opacity-50 invert mix-blend-screen" />
+            <img src="/logo.png" alt="Iron John" className="w-20 h-20 object-contain opacity-50 brightness-0 invert" />
           </div>
           
           <h2 className="text-2xl md:text-3xl font-serif text-white mb-10 text-center leading-relaxed">
