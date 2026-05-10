@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-6">
-              <img src="/logo.png" alt="Iron John" className="w-12 h-12 object-contain brightness-0 invert" />
+              <img src="/logo.png" alt="Iron John" className="w-12 h-12 object-contain invert mix-blend-screen" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-wider text-white">Iron John</span>
                 <span className="text-[10px] tracking-widest text-brand-silver/70">株式会社アイアンジョン</span>
@@ -24,20 +24,20 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg text-white mb-6 border-b border-brand-gold/30 pb-2 inline-block">SITEMAP</h3>
+            <h3 className="font-serif text-lg text-white mb-6 border-b border-brand-gold/30 pb-2 inline-block">サイトマップ</h3>
             <ul className="space-y-4 text-sm tracking-wide">
-              <li><Link to="/" className="hover:text-brand-gold transition-colors">HOME</Link></li>
-              <li><Link to="/about" className="hover:text-brand-gold transition-colors">ABOUT US</Link></li>
-              <li><Link to="/service" className="hover:text-brand-gold transition-colors">SERVICE</Link></li>
-              <li><Link to="/about-asp" className="hover:text-brand-gold transition-colors">ABOUT ASP</Link></li>
-              <li><Link to="/contact" className="hover:text-brand-gold transition-colors">CONTACT</Link></li>
+              <li><Link to="/" className="hover:text-brand-gold transition-colors">ホーム</Link></li>
+              <li><Link to="/about" className="hover:text-brand-gold transition-colors">会社概要</Link></li>
+              <li><Link to="/service" className="hover:text-brand-gold transition-colors">事業内容</Link></li>
+              <li><Link to="/about-asp" className="hover:text-brand-gold transition-colors">ASPについて</Link></li>
+              <li><Link to="/contact" className="hover:text-brand-gold transition-colors">お問い合わせ</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-serif text-lg text-white mb-6 border-b border-brand-gold/30 pb-2 inline-block">LEGAL</h3>
+            <h3 className="font-serif text-lg text-white mb-6 border-b border-brand-gold/30 pb-2 inline-block">法的情報</h3>
             <ul className="space-y-4 text-sm tracking-wide">
-              <li><Link to="/privacy-policy" className="hover:text-brand-gold transition-colors">PRIVACY POLICY</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-brand-gold transition-colors">プライバシーポリシー</Link></li>
             </ul>
           </div>
         </div>

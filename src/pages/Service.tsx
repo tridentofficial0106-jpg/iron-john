@@ -1,5 +1,5 @@
 import { PageTransition } from '../components/PageTransition';
-import { Target, Users, Building, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Target, Users, Building, ShieldCheck, ArrowRight, Laptop } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Service() {
@@ -28,7 +28,7 @@ export default function Service() {
                 />
                 <div className="absolute inset-0 bg-brand-navy/40 group-hover:bg-brand-navy/20 transition-colors duration-700" />
                 <div className="absolute bottom-0 left-0 p-8 bg-gradient-to-t from-brand-navy to-transparent w-full">
-                  <img src="/logo.png" alt="ASP Business" className="w-16 h-16 mb-4 object-contain brightness-0 invert" />
+                  <img src="/logo.png" alt="ASP Business" className="w-16 h-16 mb-4 object-contain invert mix-blend-screen" />
                 </div>
               </div>
             </div>
@@ -69,6 +69,20 @@ export default function Service() {
                     </p>
                   </div>
                 </div>
+
+                <div className="flex gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 rounded-full bg-brand-navy-light border border-brand-gold/30 flex items-center justify-center">
+                      <Laptop className="w-6 h-6 text-brand-gold" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-serif text-white mb-2">在宅ワーク・副業支援</h3>
+                    <p className="text-brand-silver/80 text-sm leading-relaxed">
+                      時間や場所にとらわれない新しい働き方をバックアップ。在宅での副業やフリーランスとしての独立を目指す方にも、安定した収益化に向けたノウハウを提供し、伴走します。
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="mt-12">
@@ -96,7 +110,7 @@ export default function Service() {
                 />
                 <div className="absolute inset-0 bg-brand-navy/40 group-hover:bg-brand-navy/20 transition-colors duration-700" />
                 <div className="absolute bottom-0 right-0 p-8 bg-gradient-to-t from-brand-navy to-transparent w-full flex justify-end">
-                  <img src="/logo.png" alt="Life Support Business" className="w-16 h-16 mb-4 object-contain brightness-0 invert" />
+                  <img src="/logo.png" alt="Life Support Business" className="w-16 h-16 mb-4 object-contain invert mix-blend-screen" />
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3 group">
-            <img src="/logo.png" alt="Iron John" className="w-10 h-10 object-contain brightness-0 invert" />
+            <img src="/logo.png" alt="Iron John" className="w-10 h-10 object-contain invert mix-blend-screen" />
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold tracking-wider text-white">Iron John</span>
               <span className="text-[10px] tracking-widest text-brand-silver/70">株式会社アイアンジョン</span>
